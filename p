@@ -1,1 +1,0 @@
-<Image src="/images/pasha.JPG" alt="Pasha" width={200} height={200}
