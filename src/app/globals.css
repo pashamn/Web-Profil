@@ -77,6 +77,8 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
   --font-poppins: 'Poppins', sans-serif;
+  --font-sora: 'Sora', sans-serif;
+  --font-rubik: 'Rubik', sans-serif;
 }
 
 .dark {
@@ -120,5 +122,7 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-poppins);
+    font-family: var(--font-sora);
+    font-family: var(--font-rubik);
   }
 }
