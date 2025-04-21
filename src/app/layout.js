@@ -37,11 +37,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en"
+    className=""
+    suppressHydrationWarning>
       <body
         className={sora.variable}
       >
-        <ThemeProvider attribute="class" enableSystem defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
           {children}
         </ThemeProvider>
       </body>

@@ -8,21 +8,21 @@ export default function MyProjects() {
 
   const projects = [
         {
-            title : "water leveling sensor",
-            description : "This ",
-            fullDescription: "jjhuhdaeuvhuf",
+            title : "Water leveling sensor",
+            description : "This water leveling sensor with ESP32 ",
+            fullDescription: "This project is a simple yet effective automation system to monitor and control the water level using ESP32 and ultrasonic sensors. When the water level is below the minimum limit, the system will automatically turn on the tap to replenish water, and turn it off again when the water reaches the upper limit. The entire process can be monitored and controlled directly through the Blynk app on a smartphone, so users can easily manage water usage remotely. The project is designed for practical needs in homes, farms, or small irrigation systems with an IoT-based approach.",
             image : "/images/2.jpg",
         },
         {
-            title : "Automatic Hydroponic",
-            description : "jj",
-            fullDescription: "jjhuhdaeuvhuf",
-            image : "/images/1.png",
+            title : "Pakaibaju application",
+            description : "This is an application project using delphi7",
+            fullDescription: "PakaiBaju is a desktop application developed using Delphi 7, specifically designed to help clothing store operations practically and efficiently. This application facilitates the process of recording product data, sales transactions, stock items, and daily to monthly sales reports. With a simple and easy-to-use interface, PakaiBaju is perfect for small to medium-sized clothing stores that want to start going digital without a complicated system.",
+            image : "/images/2.png",
         },
         {
             title : "Apotekin website",
-            description : "This is a project for automatic watering system",
-            fullDescription: "jjhuhdaeuvhuf",
+            description : "This is a website project using laravel",
+            fullDescription: "Apotekin is an online pharmacy website built using the Laravel framework. This website is designed to make it easier for users to search, order, and buy medicines practically without having to come directly to the pharmacy.",
             image : "/images/3.png",
         }
     ];
